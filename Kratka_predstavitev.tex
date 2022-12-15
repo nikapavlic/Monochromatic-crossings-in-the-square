@@ -15,5 +15,30 @@
 \title{Monochromatic crossings in the square}
 \maketitle
 
+\section{Problem}
+Naj bo $P$ množica $n$ enakomerno naključno izbranih točk v kvadratu. Vsak par točk povežemo z daljico.
+Tako dobimo poln graf z $n$ vozlišči.
+Naj bo $\lbrack a,b\rbrack$ interval kotov. Če je kot med daljico v grafu in x-osjo na intervalu
+$\lbrack a,b\rbrack$, daljico obarvamo rdeče, sicer modro.
+
+Zanima nas kje so presečišča med daljicami monokromatična (tj. obe daljici, ki se sekata sta enake barve)
+in kje so bikromatična (tj. daljici, ki se sekata sta različne barve) ter kako je to odvisno od $a$ in $b$.
+
+Cilj je najti tudi interval kotov $\lbrack a,b\rbrack$, ki da najmanjše število monokromatičnih presečišč.
+
+Zanima nas še, kako se rezultati spremenijo, če so točke v enotskem krogu.
+
+\section{Načrt dela}
+
+Naloge se bova lotila s simulacijami in sicer bova opazovala kako se spreminjajo pozicije monokromatičnih in bikromatičnih
+presečišč daljic s tem, ko se spreminja interval $\lbrack a,b\rbrack$ in ko se povečuje število točk $n$. Prav tako bova v simulacijah spreminjala interval $\lbrack a,b\rbrack$ 
+in na podlagi razultatov poskušala določiti najmanjši tak interval, ki da najmanjše število monokromatičnih presečišč.
+Najprej bova to naredila s točkami generiranimi v kvadratu $\lbrack 0,1\rbrack \times \lbrack 0,1\rbrack$, potem pa še s točkami znotraj enotske krožnice.
+
+Generirane točke bova povezala v poln graf in povezave obarvala glede na prej opisan način. Za vsaki dve daljici bova preverila ali se
+ti sekata. V kolikor se sekata bova poiskala presečišče in ugotovila ali je monokromatično ali bikromatično.
+Potem pa bova opazovala v kje se monokromatična oz. bikromatična presečišča nahajajo in koliko jih je.
+
+Pri reševanju problema bova uporabljala program R in Python.
 \end{document}
 
