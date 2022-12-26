@@ -14,9 +14,7 @@ tocke_krog <- function(n){
 }
 
 set.seed(23)
-for (i in seq(10,100,10)) {tocke_krog(i)}
-for(i in seq(100,1000,100)){tocke_krog(i)}
-for(i in seq(1000,10000,1000)){tocke_krog(i)}
+tocke_krog(10)
+for(i in seq(100,10000,100)){tocke_krog(i)}
 
 
-data.frame(fromJSON(file = "tocke_10_krog.json"))

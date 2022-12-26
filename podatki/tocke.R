@@ -14,7 +14,8 @@ tocke <- function(n){
 }
 
 
-tocke(1000)
+set.seed(23)
+tocke(10)
+for(i in seq(100,10000,100)){tocke(i)}
 
-fromJSON(file="tocke.json")
 
