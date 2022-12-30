@@ -2,7 +2,7 @@
 library(rjson)
 library(dplyr)
 library(ggplot2)
-
+library(stringr)
 
 #Naredi poln graf:
 
@@ -12,14 +12,11 @@ poln_graf <- function(datoteka){
   graf <- merge(dat,dat, by = NULL)                                #kartezicni produkt
   colnames(graf) <- c("x1","y1","x2","y2")                        #spremeni imena
   graf <- filter(graf, graf$x1!= graf$x2 & graf$y1 != graf$y2)
-  #graf$naklon <- (graf$y2-graf$y1)/(graf$x2-graf$x1) #zracuna naklon
   graf$temp <- apply(graf, 1, function(x) paste(sort(x), collapse=""))
   graf <- graf[!duplicated(graf$temp), 1:4]                       #ostanejo daljice, ki se ne ponavljajo
 }
 
-  
-
-graf <- poln_graf(datoteka = "podatki/tocke_100.json")
+graf <- poln_graf(datoteka = "podatki_krog/tocke_40_krog.json")
 
 
 
@@ -60,21 +57,12 @@ c <-presecisca(graf)
 
 
 
-#a in b v radianih
-barvanje <- function(a,b,naklon){
-  k1 <- tan(a)
-  k2 <- tan(b)
-  barva <- ifelse(k1 < naklon & naklon < k2, "M", "R")
-  barva
-}
 
-#recimo
-a <- pi/4
-b <- pi/2
+#funkcija ki data frame presecisc prepise v JSON, (X;Y;k1;k2):
 
-c$barva1 <- barvanje(a,b,c$k1)
-c$barva2 <- barvanje(a,b,c$k2)
-c$krom <- ifelse(c$barva1 == c$barva2, "mono", "bi")
 
-ggplot(c, aes(X,Y, colour = krom))+geom_point()
+
+
+
+
 
