@@ -14,7 +14,5 @@ tocke_krog <- function(n){
 }
 
 set.seed(23)
-tocke_krog(10)
-for(i in seq(100,10000,100)){tocke_krog(i)}
-
+for(i in c(5:50)){tocke_krog(i)}
 

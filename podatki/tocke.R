@@ -15,12 +15,4 @@ tocke <- function(n){
 
 
 set.seed(23)
-tocke(10)
-for(i in seq(100,10000,100)){tocke(i)}
-
-tocke(20)
-tocke(30)
-tocke(40)
-tocke(50)
-tocke(60)
-tocke(70)
+for(i in c(5:50)){tocke(i)}
