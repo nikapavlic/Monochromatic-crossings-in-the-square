@@ -4,6 +4,7 @@ library(dplyr)
 library(ggplot2)
 library(stringr)
 
+
 #Naredi poln graf:
 
 
@@ -15,8 +16,6 @@ poln_graf <- function(datoteka){
   graf$temp <- apply(graf, 1, function(x) paste(sort(x), collapse=""))
   graf <- graf[!duplicated(graf$temp), 1:4]                       #ostanejo daljice, ki se ne ponavljajo
 }
-
-graf <- poln_graf(datoteka = "podatki_krog/tocke_40_krog.json")
 
 
 
@@ -43,6 +42,7 @@ presecisca <- function(graf){
   pr$Z124 <- Z(pr$x1,pr$y1,pr$x2,pr$y2, pr$x4,pr$y4)
   pr$Z134 <- Z(pr$x1,pr$y1,pr$x3,pr$y3, pr$x4,pr$y4)
   pr$Z234 <- Z(pr$x2,pr$y2,pr$x3,pr$y3, pr$x4,pr$y4)
+  
   pr$sekata <- sekata(pr$Z123, pr$Z124, pr$Z134,pr$Z234)
   
   pr <- filter(pr, pr$sekata == TRUE)
@@ -53,16 +53,43 @@ presecisca <- function(graf){
   pr
 }
 
+
+
+graf <- poln_graf(datoteka = "podatki/tocke_10.json")
 c <-presecisca(graf)
+
+
+
 
 
 
 
 #funkcija ki data frame presecisc prepise v JSON, (X;Y;k1;k2):
 
+pr <- function(datoteka){
+  ime <- str_extract_all(datoteka,"(\\d){1,2}(_){0,1}[krog]{0,4}")
+  ob <- ifelse(str_extract_all(ime,"_{0,1}[krog]{4}")=="character(0)", "",str_extract_all(ime,"_{0,1}[krog]{4}"))
+  graf <- poln_graf(datoteka)
+  pr <- presecisca(graf)
+  pr <- pr[,14:17]
+  json <- toJSON(list(k1 = pr$k1, k2=pr$k2,X=pr$X,Y=pr$Y))
+  write(json, str_glue("presecisca{ob}/presecisca_{ime}.json"))
+}
+
+
+pr("podatki/tocke_7.json")
+pr("podatki_krog/tocke_7_krog.json")
 
 
 
+for (i in c(5:50)) {
+  dat <- str_glue("podatki/tocke_{i}.json")
+  pr(dat)
+}
 
 
+for (i in c(5:50)) {
+  dat <- str_glue("podatki_krog/tocke_{i}_krog.json")
+  pr(dat)
+  }
 

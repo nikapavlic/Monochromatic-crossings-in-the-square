@@ -16,3 +16,4 @@ tocke <- function(n){
 
 set.seed(23)
 for(i in c(5:50)){tocke(i)}
+
