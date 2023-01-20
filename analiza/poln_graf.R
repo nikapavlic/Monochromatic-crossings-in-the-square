@@ -335,7 +335,7 @@ for (i in c(5:50)) {
 }
 
 skupni_min_krog <- skupni_min_krog[-c(1,2),]
-skupni_max_dolzin_krog <- skupni_min_dolzin_krog[-c(1,2),]
+skupni_max_dolzin_krog <- skupni_max_dolzin_krog[-c(1,2),]
 
 
 frekvencni <- data.frame(int = c(1:20), pojavitve = rep(0, 20))
@@ -350,7 +350,7 @@ for (i in c(1:length(skupni_min))){
     if (frekvencni[k, 1] >= skupni_min[i, 3] & frekvencni[k, 1] < skupni_min[i, 4]){
       frekvencni[k, 2] <- frekvencni[k, 2] + 1
     }
-    if (frekvencni_dolzin[k, 1] >= skupni_min_dolzin[i, 3] & frekvencni_dolzin[k, 1] < skupni_min_dolzin[i, 4]){
+    if (frekvencni_dolzin[k, 1] >= skupni_max_dolzin[i, 3] & frekvencni_dolzin[k, 1] < skupni_max_dolzin[i, 4]){
       frekvencni_dolzin[k, 2] <- frekvencni_dolzin[k, 2] + 1
     }
   }
@@ -369,7 +369,7 @@ for (i in c(1:length(skupni_min_krog))){
     if (frekvencni_krog[k, 1] >= skupni_min_krog[i, 3] & frekvencni_krog[k, 1] < skupni_min_krog[i, 4]){
       frekvencni_krog[k, 2] <- frekvencni_krog[k, 2] + 1
     }
-    if (frekvencni_krog_dolzin[k, 1] >= skupni_min_dolzin_krog[i, 3] & frekvencni_krog_dolzin[k, 1] < skupni_min_dolzin_krog[i, 4]){
+    if (frekvencni_krog_dolzin[k, 1] >= skupni_max_dolzin_krog[i, 3] & frekvencni_krog_dolzin[k, 1] < skupni_max_dolzin_krog[i, 4]){
       frekvencni_krog_dolzin[k, 2] <- frekvencni_krog_dolzin[k, 2] + 1
     }
   }
