@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.7) (preloaded format=pdflatex 2020.10.3)  10 JAN 2023 22:35
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.7) (preloaded format=pdflatex 2020.10.3)  20 JAN 2023 15:03
 entering extended mode
 **"c:/Users/nikap/Documents/3.letnik FMF/Finančni praktikum/projekt/Monochromatic-crossings-in-the-square/porocilo/Projekt_porocilo.tex"
 ("c:/Users/nikap/Documents/3.letnik FMF/Finančni praktikum/projekt/Monochromatic-crossings-in-the-square/porocilo/Projekt_porocilo.tex"
@@ -295,23 +295,24 @@ Overfull \hbox (21.01918pt too wide) in paragraph at lines 98--108
  []
 
 [5 <c:/Users/nikap/Documents/3.letnik FMF/Finančni praktikum/projekt/Monochromatic-crossings-in-the-square/porocilo/frekvencni.png>] [6 <c:/Users/nikap/Documents/3.letnik FMF/Finančni praktikum/projekt/Monochromatic-crossings-in-the-square/porocilo/frekvencni_krog.png>]
-File: frekvencni_krog.png Graphic file (type png)
-<use frekvencni_krog.png>
-Package pdftex.def Info: frekvencni_krog.png  used on input line 113.
-(pdftex.def)             Requested size: 199.6474pt x 300.37451pt.
- [7 <c:/Users/nikap/Documents/3.letnik FMF/Finančni praktikum/projekt/Monochromatic-crossings-in-the-square/porocilo/frekvencni_dolzin.png>] [8] [9] ("c:/Users\nikap\Documents\3.letnik FMF\Finančni praktikum\projekt\Monochromatic-crossings-in-the-square\porocilo\Projekt_porocilo.aux") ) 
+<frekvencni_krog_dolzin.png, id=42, 333.49594pt x 494.59781pt>
+File: frekvencni_krog_dolzin.png Graphic file (type png)
+<use frekvencni_krog_dolzin.png>
+Package pdftex.def Info: frekvencni_krog_dolzin.png  used on input line 113.
+(pdftex.def)             Requested size: 200.09909pt x 296.76097pt.
+ [7 <c:/Users/nikap/Documents/3.letnik FMF/Finančni praktikum/projekt/Monochromatic-crossings-in-the-square/porocilo/frekvencni_dolzin.png>] [8 <c:/Users/nikap/Documents/3.letnik FMF/Finančni praktikum/projekt/Monochromatic-crossings-in-the-square/porocilo/frekvencni_krog_dolzin.png>] [9] ("c:/Users\nikap\Documents\3.letnik FMF\Finančni praktikum\projekt\Monochromatic-crossings-in-the-square\porocilo\Projekt_porocilo.aux") ) 
 Here is how much of TeX's memory you used:
- 3970 strings out of 481199
- 69875 string characters out of 2905595
+ 3978 strings out of 481199
+ 70105 string characters out of 2905595
  333463 words of memory out of 3000000
- 19503 multiletter control sequences out of 15000+200000
+ 19510 multiletter control sequences out of 15000+200000
  545427 words of font info for 68 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  43i,7n,46p,903b,226s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Users/nikap/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/nikap/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbxti10.pfb><C:/Users/nikap/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/nikap/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/nikap/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/nikap/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/nikap/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/nikap/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/nikap/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/nikap/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/nikap/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Users/nikap/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on "c:/Users\nikap\Documents\3.letnik FMF\Finančni praktikum\projekt\Monochromatic-crossings-in-the-square\porocilo\Projekt_porocilo.pdf" (9 pages, 202718 bytes).
+Output written on "c:/Users\nikap\Documents\3.letnik FMF\Finančni praktikum\projekt\Monochromatic-crossings-in-the-square\porocilo\Projekt_porocilo.pdf" (9 pages, 207706 bytes).
 PDF statistics:
- 91 PDF objects out of 1000 (max. 8388607)
+ 93 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 26 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 31 words of extra memory for PDF output out of 10000 (max. 10000000)
 

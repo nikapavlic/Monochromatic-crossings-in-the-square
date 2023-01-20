@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1673386501 "c:/Users/nikap/Documents/3.letnik FMF/Finanèni praktikum/projekt/Monochromatic-crossings-in-the-square/porocilo/Projekt_porocilo.tex" "c:/Users/nikap/Documents/3.letnik FMF/Finanèni praktikum/projekt/Monochromatic-crossings-in-the-square/porocilo/Projekt_porocilo.pdf" "Projekt_porocilo" 1673386539
+["pdflatex"] 1674223435 "c:/Users/nikap/Documents/3.letnik FMF/Finanèni praktikum/projekt/Monochromatic-crossings-in-the-square/porocilo/Projekt_porocilo.tex" "c:/Users/nikap/Documents/3.letnik FMF/Finanèni praktikum/projekt/Monochromatic-crossings-in-the-square/porocilo/Projekt_porocilo.pdf" "Projekt_porocilo" 1674223561
   "C:/Users/nikap/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1601722805 10060340 886f4f64f8cdddf14b258459f0ed9347 ""
   "C:/Users/nikap/AppData/Local/MiKTeX/pdftex/config/pdftex.map" 1673383190 99058 36c13b8742b4f9f91d72b919f89faa90 ""
   "C:/Users/nikap/AppData/Local/Programs/MiKTeX/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1233951848 1004 54797486969f23fa377b128694d548df ""
@@ -74,18 +74,19 @@
   "C:/Users/nikap/AppData/Local/Programs/MiKTeX/tex/latex/textpos/textpos.sty" 1658741847 12842 35403bda336a71a37a5edc37b78e3ec3 ""
   "C:/Users/nikap/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388490452 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "C:/Users/nikap/AppData/Local/Programs/MiKTeX/tex/latex/wrapfig/wrapfig.sty" 1044403200 26220 3701aebf80ccdef248c0c20dd062fea9 ""
-  "Projekt_porocilo.aux" 1673386503 2314 e38a20e3ee394b037870a89b38741e05 "pdflatex"
-  "Projekt_porocilo.tex" 1673386538 11746 977499a1847c2c0420975883d0c3b77d ""
-  "c:/Users/nikap/Documents/3.letnik FMF/Finanèni praktikum/projekt/Monochromatic-crossings-in-the-square/porocilo/Projekt_porocilo.aux" 1673386503 2314 e38a20e3ee394b037870a89b38741e05 ""
-  "c:/Users/nikap/Documents/3.letnik FMF/Finanèni praktikum/projekt/Monochromatic-crossings-in-the-square/porocilo/Projekt_porocilo.tex" 1673386538 11746 977499a1847c2c0420975883d0c3b77d ""
+  "Projekt_porocilo.aux" 1674223437 2314 e38a20e3ee394b037870a89b38741e05 "pdflatex"
+  "Projekt_porocilo.tex" 1674223560 11753 ebafaed2afd3eba7ff8f181c3dd2c358 ""
+  "c:/Users/nikap/Documents/3.letnik FMF/Finanèni praktikum/projekt/Monochromatic-crossings-in-the-square/porocilo/Projekt_porocilo.aux" 1674223437 2314 e38a20e3ee394b037870a89b38741e05 ""
+  "c:/Users/nikap/Documents/3.letnik FMF/Finanèni praktikum/projekt/Monochromatic-crossings-in-the-square/porocilo/Projekt_porocilo.tex" 1674223560 11753 ebafaed2afd3eba7ff8f181c3dd2c358 ""
   "frekvencni.png" 1673374477 5593 78039bfe8a86ea254ef2c06bd5ddc0f0 ""
   "frekvencni_dolzin.png" 1673374477 6121 4ed6e1d93225c1eb5a9e77300701c50b ""
   "frekvencni_krog.png" 1673374477 6878 d1b6d62ed61a699045db5f0a9a8bbe5c ""
+  "frekvencni_krog_dolzin.png" 1673374477 5506 9c6ff3df664bef06cc2fc2b2b8b4cb26 ""
   "graf_20.png" 1673374477 23721 6d69635cfcbaa56b0c20ad6380aee073 ""
   "krog_20.png" 1673374478 25107 3206f2463eea7c505b034ec417a41f42 ""
   (generated)
-  "c:/Users/nikap/Documents/3.letnik FMF/Finanèni praktikum/projekt/Monochromatic-crossings-in-the-square/porocilo/Projekt_porocilo.log"
-  "c:/Users/nikap/Documents/3.letnik FMF/Finanèni praktikum/projekt/Monochromatic-crossings-in-the-square/porocilo/Projekt_porocilo.pdf"
-  "Projekt_porocilo.pdf"
   "Projekt_porocilo.log"
+  "Projekt_porocilo.pdf"
+  "c:/Users/nikap/Documents/3.letnik FMF/Finanèni praktikum/projekt/Monochromatic-crossings-in-the-square/porocilo/Projekt_porocilo.pdf"
+  "c:/Users/nikap/Documents/3.letnik FMF/Finanèni praktikum/projekt/Monochromatic-crossings-in-the-square/porocilo/Projekt_porocilo.log"
   "Projekt_porocilo.aux"
